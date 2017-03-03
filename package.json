@@ -1,0 +1,26 @@
+{
+  "name": "express-login",
+  "version": "1.0.0",
+  "description": "Before you get started, add a .gitignore to your project and ignore your node_modules!!",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cswormstedt/express-login.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cswormstedt/express-login/issues"
+  },
+  "homepage": "https://github.com/cswormstedt/express-login#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "hbs": "^4.0.1"
+  }
+}
