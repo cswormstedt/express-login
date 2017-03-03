@@ -1,8 +1,11 @@
-var express = require('express');
-var path 	= require('path');
-var app		= express();
-var server  = require('http').createServer(app);
+var express    = require('express');
+var path 	   = require('path');
+var app		   = express();
+var server     = require('http').createServer(app);
 var bodyParser = require('body-parser');
+var flash      = require('connect-flash');
+var session    = require('express-session');
+var auth       = require('./auth.js');
 
 app.use(bodyParser.urlencoded({
 	extended: true
